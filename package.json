@@ -1,10 +1,10 @@
 {
   "name": "scroll-end-refresh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scroll-end-refresh",
   "main": "./dist/index.js",
   "scripts": {
-    "dist": "babel src/ --modules umd --out-dir dist && cp -r ./dist/ ./example/pull-refresh/ ",
+    "dist": "babel src/ --modules umd --out-dir dist",
     "test": "mocha ./test/index.test.js"
   },
   "devDependencies": {

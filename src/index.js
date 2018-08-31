@@ -49,7 +49,7 @@ export default class ScrollEndPull {
 			this.onEndPull(()=>{
 				this.isEventListener = true;
 			}, ()=>{
-				this.destroy();
+				this.isEventListener = false;
 			});
 
 		}

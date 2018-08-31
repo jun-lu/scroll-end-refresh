@@ -62,7 +62,7 @@ var ScrollEndPull = function () {
 				this.onEndPull(function () {
 					_this.isEventListener = true;
 				}, function () {
-					_this.destroy();
+					_this.isEventListener = false;
 				});
 			}
 		}
