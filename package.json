@@ -1,6 +1,6 @@
 {
   "name": "scroll-end-refresh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "scroll-end-refresh",
   "main": "./dist/index.js",
   "scripts": {
@@ -23,8 +23,6 @@
     "mocha":"*"
   },
   "dependencies": {
-    "events":"*",
-    "fsevents":"*"
   },
   "bugs": {
     "url": "https://github.com/jun-lu/react-pull-refresh2/issues"
